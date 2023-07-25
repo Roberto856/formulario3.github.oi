@@ -1,0 +1,60 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.jugueteria{
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+
+}
+table {
+  border: 1;
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.boleta{
+  border: 8px;
+  text-align: center;
+  width: 125px;
+  margin: 6px auto 0px ;
+}
+
+.guias{
+  margin: -8px -1px -2px 0px;
+  text-align: left;
+}
+
+#descuentoCompra{
+  margin: 0px 0px 20px 0px;
+}
+#resultado {
+  padding: 150;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Juguetes</title>
+  <link rel="stylesheet" href="formula2.css">
+</head>
+<body>
+  
+
+    <form id="compraForm">
+      <h2>Formulario de Compra</h2>
+      
+      <label for="productoSelect">Producto:</label>
+      <select id="productoSelect">
+        <option value="Monopolio">Monopolio</option>
+        <option value="Ajedrez">Ajedrez</option>
+        <option value="Dama">Dama</option>
+        <option value="Laberinto">Laberinto</option>
+      </select>
+      <br>
+      <label for="cantidadInput">Cantidad:</label>
+      <input type="number" id="cantidadInput" min="1" max="100" step="1" required>
+      <br>
+      <button type="button" onclick="calcularCompra()">Calcular Compra</button>
+    </form>
+    
+    
+    <form id="productosForm">
+      <h2 class="jugueteria">Tienda jugueteria</h2>
+      <table>
+        <tr>
+          <th>N°</th>
+          <th>Juguete</th>
+          <th>Precio</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Monopolio</td>
+          <td>70.99</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Ajedrez</td>
+          <td>78.99</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Dama</td>
+          <td>58.50</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Laberinto</td>
+          <td>35.00</td>
+        </tr>
+      </table>
+    </form>
+
+    
+    <form class="boleta">
+      <div class="guias">==============</div>
+      <div id="resultado">
+        <p id="productoCompra"></p>
+        <p id="cantidadCompra"></p>
+        <p id="precioCompra"></p>
+        <p id="subTotalCompra"></p>
+        <p id="descuentoCompra"></p>
+        <div class="guias">--------------------------------</div>
+        <p id="totalCompra"></p>
+        <div class="guias">_____________________</div>
+      </div>  
+      
+      
+    </form>
+    
+  <script text="text/javascript" src="formu2.js"></script>
+</body>
+</html>
